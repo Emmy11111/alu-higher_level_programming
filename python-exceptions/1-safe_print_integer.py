@@ -8,3 +8,4 @@ def safe_print_integer(value):
     except (ValueError, TypeError):
         # Catch non-integer types (strings, lists, floats, None)
         return False
+
