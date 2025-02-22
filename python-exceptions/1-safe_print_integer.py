@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 def safe_print_integer(value):
     try:
         # Attempt to print the value as an integer
@@ -8,4 +9,3 @@ def safe_print_integer(value):
     except (ValueError, TypeError):
         # Catch non-integer types (strings, lists, floats, None)
         return False
-
